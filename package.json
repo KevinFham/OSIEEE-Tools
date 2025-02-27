@@ -2,6 +2,19 @@
 	"dependencies": {
 		"next": "^15.2.0",
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"tailwindcss": "^4.0.9",
+		"typescript": "^5.7.3"
+	},
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"tsc": "tsc"
+	},
+	"devDependencies": {
+		"@types/node": "22.13.5",
+		"@types/react": "19.0.10"
 	}
 }
